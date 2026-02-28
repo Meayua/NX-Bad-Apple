@@ -5,8 +5,7 @@ the bad apple for the nintendo switch
 
 ## Requirements
 
-devkitpro with switch libraries
-Bad Apple MV converted to mpeg1video (https://www.youtube.com/watch?v=FtutLA63Cp8 convert with ffmpeg using `ffmpeg -i input.mp4 -vcodec mpeg1video -acodec mp2 -format mpeg -vf "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2,setsar=1" output.mpg`)
+devkitpro with switch libraries and Bad Apple MV converted to mpeg1video (https://www.youtube.com/watch?v=FtutLA63Cp8 convert with ffmpeg using `ffmpeg -i input.mp4 -vcodec mpeg1video -acodec mp2 -format mpeg -vf "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2,setsar=1" output.mpg`)
 
 ## Building
 
